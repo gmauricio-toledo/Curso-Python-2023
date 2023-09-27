@@ -4,5 +4,6 @@ El presente curso pretende introducir a los participantes al lenguaje Python as�
 
 Objetivos:
 
-•	Proporcionar una introducción a Python, tanto a nivel de lenguaje de programación, como a nivel del uso de algunos módulos importantes. 
+•	Proporcionar una introducción a Python, tanto a nivel de lenguaje de programación, como a nivel del uso de algunos módulos importantes.
+
 •	Explorar Python como herramienta para la implementación de los diferentes algoritmos de métodos numéricos.
