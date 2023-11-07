@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def graficar(f,a,b,num=100):
     eje_x = np.linspace(start=a,
                     stop=b,
@@ -8,7 +11,7 @@ def graficar(f,a,b,num=100):
     plt.axhline(0,color='gray') # Dibujar eje X
     plt.show()
     
- def falsa_posicion(f,xl,xu,tolerancia):
+def falsa_posicion(f,xl,xu,tolerancia):
     '''
     f:      función
     xl:     extremo inferior del intervalo
@@ -41,8 +44,8 @@ def graficar(f,a,b,num=100):
             'errores': np.array(errores),
             'aproximaciones': np.array(aproximaciones)
             }
-    
- def secante(f,x0,x1,tolerancia):
+
+def secante(f,x0,x1,tolerancia):
     '''
     f:      función a la que encontraremos la raiz
     x0:     primera aproximación de la raiz
