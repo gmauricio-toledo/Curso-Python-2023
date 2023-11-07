@@ -10,6 +10,9 @@ def graficar(f,a,b,num=100):
     plt.plot(eje_x,eje_y,color='red')
     plt.axhline(0,color='gray') # Dibujar eje X
     plt.show()
+
+def error_relativo(real, aproximacion):
+    return np.abs((real-aproximacion)/real)
     
 def falsa_posicion(f,xl,xu,tolerancia):
     '''
